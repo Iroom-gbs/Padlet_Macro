@@ -32,9 +32,9 @@ def mk_post(*args):
     btn = '/html/body/div[3]/div[4]/div/div/div/div/div[1]/div[2]/button'
     for i in args:
         driver.find_element(by=By.XPATH, value=x).click()
-        time.sleep(1)
+        time.sleep(1.5)
         driver.find_element(by=By.XPATH, value=b).send_keys(i)
-        time.sleep(1)
+        time.sleep(1.5)
         driver.find_element(by=By.XPATH, value=btn).click()
 
 
