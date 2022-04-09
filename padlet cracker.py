@@ -5,7 +5,7 @@ import time
 
 option = webdriver.ChromeOptions()
 option.add_argument("headless")
-driver = webdriver.Chrome("/home/joon0725/Coding/chromedriver", chrome_options=option)
+driver = webdriver.Chrome("./chromedriver", chrome_options=option)
 
 url = input("매크로를 돌릴 페이지 URL: ")
 
